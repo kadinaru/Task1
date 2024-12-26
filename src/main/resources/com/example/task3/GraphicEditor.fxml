@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.task3.Controller">
+   <AnchorPane prefHeight="94.0" prefWidth="800.0">
+      <children>
+           <Button layoutX="24.0" layoutY="14.0" onAction="#addCircle" text="Добавить круг" />
+           <Button layoutX="126.0" layoutY="14.0" onAction="#addRectangle" text="Добавить прямоугольник" />
+      </children>
+   </AnchorPane>
+    <Pane fx:id="drawingPane" prefHeight="600" prefWidth="800" style="-fx-background-color: lightgray;" />
+</VBox>
